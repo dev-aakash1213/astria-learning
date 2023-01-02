@@ -33,6 +33,55 @@ h2{
 h3{
     font-size: 1.5rem;
 }
+/* Utility Section */
+a{
+    text-decoration: none;
+    display: inline-display;
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 20px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.hover-link{
+    color: var(--primary-text-color);
+}
+
+.hover-link:hover{
+    color: var(--accent-color);
+}
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -58,4 +107,54 @@ p{
     color: white;
     padding: 15px 30px;
     text-align: center;
+}
+
+/* Navigation Bar */
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.nav-link{
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+/* Header */
+
+header{
+    padding: 50px var(--padding-inline-section);
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-left h1{
+    margin-top: 20px
+}
+
+.header-right img{
+    width: 600px;
+}
+
+.header-left p{
+    padding-bottom: 20px ;
+}
+
+.get-started-btn{
+    margin-top: 20px;
 }
